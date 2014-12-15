@@ -1,0 +1,21 @@
+{
+  "name": "summernote-foundation",
+  "version": "0.6.0",
+  "main": [
+    "summernote.js",
+    "summernote.min.js",
+    "summernote.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0",
+    "foundation": "~5.4.7"
+    "fontawesome": ">= 4.1.0"
+  }
+}
