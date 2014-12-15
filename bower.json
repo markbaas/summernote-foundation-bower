@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "jquery": ">= 1.9.0",
-    "foundation": "~5.4.7"
+    "foundation": "~5.4.7",
     "fontawesome": ">= 4.1.0"
   }
 }
