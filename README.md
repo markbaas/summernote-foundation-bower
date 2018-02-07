@@ -24,11 +24,15 @@ Summernote has a few special features:
 
 ### Installation and dependencies
 
-Summernote-foundation uses opensouce libraries: [jQuery](http://jquery.com/), [Foundation](http://http://foundation.zurb.com/), [Font Awesome](https://github.com/FortAwesome/Font-Awesome).
+#### With Bower
 
-For other/no frameworks:
+```
+$ bower install summernote-foundation
+```
 
-#### 1. include JS/CSS
+#### Without Bower
+
+Summernote-foundation uses opensource libraries: [jQuery](http://jquery.com/), [Foundation](http://http://foundation.zurb.com/), [Font Awesome](https://github.com/FortAwesome/Font-Awesome).
 
 Include the following code in the `<head>` tag of your HTML:
 
@@ -45,7 +49,9 @@ Include the following code in the `<head>` tag of your HTML:
 <script src="summernote.min.js"></script>
 ```
 
-#### 2. target elements
+### Usage
+
+#### 1. target elements
 
 Then place a `div` tag somewhere in the `body` tag. This element will be replaced with the summernote editor.
 
@@ -53,7 +59,7 @@ Then place a `div` tag somewhere in the `body` tag. This element will be replace
 <div id="summernote">Hello Summernote</div>
 ```
 
-#### 3. summernote
+#### 2. summernote
 
 Finally, run this script after the DOM is ready:
 

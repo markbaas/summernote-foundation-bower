@@ -3,7 +3,6 @@
   "version": "0.6.0",
   "main": [
     "summernote.js",
-    "summernote.min.js",
     "summernote.css"
   ],
   "ignore": [
